@@ -1,9 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
-    --correct-blue-color: darkblue;
+    --correct-blue-color: darkcyan; /* darkblue; */
     --correct_align: center;
     --border-thickness: 1px;
     --correct-padding-marging: 1rem;
     --correct-height: auto;
+}
+
+body {  /* got the GOOGLE FONT idea from the video instruction W03 */
+    font-size: 16px;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 nav {
@@ -19,18 +30,22 @@ nav a {
 
 h1 {
     color: var(--correct-blue-color);
+    padding: .5rem /* got the idea from the video instruction W03 */
 }
 
 main img {
     width: 150px;
-    height: var(--correct-height);
-    border: var(--border-thickness) solid black;
+    height: var(--correct-height); /* height auto */
+    border: var(--border-thickness) solid black; /* thikness 1px */
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem; /* got the idea from the video instruction W03 */
 }
 
 p {
     padding: 0;
+    margin: 1rem; /* got the idea from the video instruction W03 */
 }
 
 main {
@@ -38,13 +53,14 @@ main {
 }
 
 aside {
+    position: relative;
     width: 20rem;
-    margin: var(--correct-padding-marging);
-    border: var(--border-thickness) solid rgb(0 0 0 / 0.2); 
-    padding: var(--correct-padding-marging);
-    background-color: #eee;
-    color: #333;
-    text-align: var(--correct_align);
+    text-align: var(--correct_align); /* align center */
+    /* margin: var(--correct-padding-marging); */
+    /* border: var(--border-thickness) solid rgb(0 0 0 / 0.2);  */
+    /* padding: var(--correct-padding-marging); */
+    /* background-color: #eee; */
+    /* color: #333; */
 }
 
 aside img {
@@ -52,8 +68,32 @@ aside img {
     height: var(--correct-height);
 }
 
+aside h2 {
+    position: absolute;
+    font-size: larger;
+    top: 14px;
+    left: 85px;
+    /* color:lightcyan */
+    /* color: var(--correct-blue-color); */
+}
+
 footer {
     margin-top: 15px;
     border-top: var(--border-thickness) solid #000;
     text-align: var(--correct_align);
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0 0 0 / .1);
+    padding: 1rem;
+    /* background-color: lightblue; */
+    background-color:lightcyan;
+    color: #000;
+}
+
+.indent { /* got the idea from the video instruction W03 */
+    padding-left: 2rem;
 }
