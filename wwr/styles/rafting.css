@@ -1,0 +1,88 @@
+:root {
+    --primary-color: #219EBC;
+    --secondary-color: #023047;
+    --accent1-color: #FB8500;
+    --accent2-color: #FFB703;
+    --primary-color-rgb: 33, 158, 188;
+    --secondary-color-rgb: 2, 48, 71;
+    --accent1-color-rgb: 251, 133, 0;
+    --accent2-color-rgb: 255, 183, 3;
+}
+
+h1, h2 {
+    font-family: 'akaya kanadaka', 'Bradley Hand', cursive;
+    /* color: var(--primary-color); */
+    color: var(--accent1-color);
+}
+
+p {
+    font-family: Roboto, Helvetica, sans-serif;
+    color: var(--secondary-color);
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+main {
+    max-width: 840px;
+}
+
+/* Step 5: Style the Hero Container using Position Absolute */
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    /* font-size: 180%; */
+    /* color: white; */
+    color: var(--accent2-color);
+    /* background-color: rgba(var(--secondary-color-rgb), .7); */
+    background-color: rgba(var(--secondary-color-rgb), .7);
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.hero article {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    /* top: 360px; */
+    bottom: 5%;
+    left: 5%;
+    right: 5%;    
+    background-color: rgba(var(--primary-color-rgb), .7);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.hero article img {
+    float: right;
+    /* width: 150px; */
+    width: 30%;
+    min-width: 50px;
+    margin-left: 5px;
+    height: auto;
+}
+
+.hero article p {
+    color: white;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
