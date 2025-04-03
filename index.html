@@ -6,6 +6,9 @@
         <title>Marcelo Severo Patricio | WDD 130</title>
         <meta name="description" content="Marcelo Patricio's BYU-Idaho WDD 130 course home page">
         <meta name="author" content="Marcelo Severo Patricio">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/styles.css">
     </head>
     <body>
@@ -17,28 +20,30 @@
                 <a href="https://www.facebook.com/mspatricio">Facebook Profile</a>
             </nav>
         </header>
-        <main>
-            <h1>Marcelo Severo Patricio | WDD 130</h1>
-            <img src="images/profile.webp" alt="Marcelo Patricio">
-            <p>Hello! My name is Marcelo Patricio, I'm from Porto Alegre, Brazil! I love technology, airplanes and I want to be a good programmer. 
-                Pathway opened a way to make this objective possible. I am excited to learn and grow in this journey of web development. 
-                Through this course, I aim to build a strong foundation in web design and development, enabling me to create meaningful and impactful projects that reflect my passion for technology and creativity. 
-                I am particularly interested in learning how to create responsive and user-friendly websites that provide a great experience for users. 
-                Additionally, I hope to gain skills in problem-solving and critical thinking, which are essential for tackling challenges in the field of web development. 
-                My ultimate goal is to contribute to projects that make a positive difference in people's lives while continuously improving my knowledge and expertise.
-            </p>
-            <!-- this command creates the ul, li and ancor: ul>li*3>a -->
-            <ul class="box indent"> <!-- got the CLASS INDENT idea from the video instruction W03 -->
-                <li><a href="https://www.churchofjesuschrist.org/temples/details/porto-alegre-brazil-temple?lang=eng" target="_blank">Porto Alegre Brazil Temple</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/temples/details/sao-paulo-brazil-temple?lang=eng" target="_blank">São Paulo Brazil Temple</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/temples/details/salt-lake-temple?lang=eng" target="_blank">Salt Lake Temple</a></li>
-            </ul>
-        </main>
-        <aside class="box">
-            <h2>Rio Grande do Sul</h2>
-            <img src="images/rio-grande-do-sul.webp" alt="Rio Grande do Sul State" width="200">
-            <p>Rio Grande do Sul, the southernmost state of Brazil, is known for its rich gaucho culture, European influences, and diverse landscapes. It features vast pampas, rolling hills, and a stunning coastline along the Atlantic Ocean. The state has a strong economy driven by agriculture, industry, and commerce, with Porto Alegre as its capital. Famous for churrasco (Brazilian barbecue), chimarrão (a traditional mate drink), and its deep-rooted traditions, Rio Grande do Sul also has a distinct identity, shaped by historical influences from German, Italian, and Portuguese immigrants.</p>
-        </aside>
+        <div class="grid">
+            <main>
+                <h1>Marcelo Patricio | WDD 130</h1>
+                <img src="images/profile.webp" alt="Marcelo Patricio">
+                <p>Hello! My name is Marcelo Patricio, I'm from Porto Alegre, Brazil! I love technology, airplanes and I want to be a good programmer. 
+                    Pathway opened a way to make this objective possible. I am excited to learn and grow in this journey of web development. 
+                    Through this course, I aim to build a strong foundation in web design and development, enabling me to create meaningful and impactful projects that reflect my passion for technology and creativity. 
+                    I am particularly interested in learning how to create responsive and user-friendly websites that provide a great experience for users. 
+                    Additionally, I hope to gain skills in problem-solving and critical thinking, which are essential for tackling challenges in the field of web development. 
+                    My ultimate goal is to contribute to projects that make a positive difference in people's lives while continuously improving my knowledge and expertise.
+                </p>
+                <!-- this command creates the ul, li and ancor: ul>li*3>a -->
+                <ul class="box indent"> <!-- got the CLASS INDENT idea from the video instruction W03 -->
+                    <li><a href="https://www.churchofjesuschrist.org/temples/details/porto-alegre-brazil-temple?lang=eng" target="_blank">Porto Alegre Brazil Temple</a></li>
+                    <li><a href="https://www.churchofjesuschrist.org/temples/details/sao-paulo-brazil-temple?lang=eng" target="_blank">São Paulo Brazil Temple</a></li>
+                    <li><a href="https://www.churchofjesuschrist.org/temples/details/salt-lake-temple?lang=eng" target="_blank">Salt Lake Temple</a></li>
+                </ul>
+            </main>
+            <aside class="box">
+                <h2>Rio Grande do Sul</h2>
+                <img src="images/rio-grande-do-sul.webp" alt="Rio Grande do Sul State" width="200">
+                <p>Rio Grande do Sul, the southernmost state of Brazil, is known for its rich gaucho culture, European influences, and diverse landscapes. It features vast pampas, rolling hills, and a stunning coastline along the Atlantic Ocean. The state has a strong economy driven by agriculture, industry, and commerce, with Porto Alegre as its capital. Famous for churrasco (Brazilian barbecue), chimarrão (a traditional mate drink), and its deep-rooted traditions, Rio Grande do Sul also has a distinct identity, shaped by historical influences from German, Italian, and Portuguese immigrants.</p>
+            </aside>
+        </div>
         <footer>
             <p>©️2025 📍 Marcelo Patricio 📍 Porto Alegre, Brazil</p>
         </footer>
