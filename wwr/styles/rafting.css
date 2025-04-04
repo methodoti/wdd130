@@ -32,8 +32,8 @@ header {
     grid-template-columns: 1fr 2fr;
     /* justify-content: space-between; */
     align-items: center;
-    /* border: 1px solid var(--secondary-color);
-    background-color:magenta; */
+    /* border: 1px solid var(--secondary-color); */
+    background-color: var(--accent2-color); 
 }
 
 header img {
@@ -44,6 +44,7 @@ header img {
     grid-column: 1/2;
     /* justify-content: right; */
     justify-self: end;
+    
 }
 
 header nav {
@@ -64,8 +65,8 @@ header nav a {
     line-height: 30px;
     text-align: center;
     /* box-shadow: 1px 1px 30px gray; */
-    /* box-shadow: 3px 3px 5px rgba(var(--secondary-color-rgb), .7); */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 5px rgba(var(--secondary-color-rgb), .3);
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); */
     background-color: var(--primary-color);
     /* background-color: #fff; */
     /* padding: 0.3rem; */
@@ -81,8 +82,11 @@ header nav a {
 
 header nav a:hover {
     /* color: var(--accent2-color); */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
-    background-color: rgb(33, 158, 188, .8);
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); */
+    box-shadow: 2px 2px 5px rgba(var(--secondary-color-rgb), .5);
+    /* background-color: rgb(33, 158, 188, .9); */
+    /* background-color: rgb(2, 48, 71, .8); */
+    background-color: var(--secondary-color);
 }
 
 main {
