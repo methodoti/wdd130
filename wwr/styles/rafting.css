@@ -46,7 +46,7 @@ header img {
     justify-self: end;
 }
 
-nav {
+header nav {
     grid-column: 2/3;
     display: flex;
     /* padding: 1rem; */
@@ -58,7 +58,7 @@ nav {
     /* justify-self: center; */
 }
 
-nav a {
+header nav a {
     display: block;
     width: 110px;
     line-height: 30px;
@@ -79,7 +79,7 @@ nav a {
     color: #fff;
 }
 
-nav a:hover {
+header nav a:hover {
     /* color: var(--accent2-color); */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
     background-color: rgb(33, 158, 188, .8);
