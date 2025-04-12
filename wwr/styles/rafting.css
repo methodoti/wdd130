@@ -466,3 +466,54 @@ input[type="radio"] {
     margin-top: 8px;
     /* vertical-align: text-bottom; */
 }
+
+.hero-index {
+    position: relative;
+}
+
+.hero-index img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero-index h1 {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    /* font-size: 180%; */
+    /* color: white; */
+    color: var(--accent2-color);
+    /* background-color: rgba(var(--secondary-color-rgb), .7); */
+    background-color: rgba(var(--secondary-color-rgb), .7);
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.hero-index article {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 200px;
+    /* bottom: 100%; */
+    left: 5%;
+    right: 5%;    
+    background-color: rgba(var(--primary-color-rgb), .7);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.hero article img {
+    float: right;
+    /* width: 150px; */
+    width: 30%;
+    min-width: 50px;
+    margin-left: 5px;
+    height: auto;
+}
+
+.hero-index article p {
+    color: white;
+}
