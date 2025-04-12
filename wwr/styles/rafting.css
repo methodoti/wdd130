@@ -26,7 +26,7 @@ p, h3 {
 
 header {
     max-width: 840px;
-    margin: 0 auto; /* centralized horizontaly on browser */
+    margin: 0 auto; /* centralized horizontally on browser */
     display: grid;
     /* grid-template-columns: 280px 2fr; */
     /* grid-template-columns: repeat(5 1fr); */
@@ -90,14 +90,9 @@ header nav a:hover {
     /* background-color: var(--secondary-color); */
 }
 
-body {
-    /* align-items: center; */
-    /* background-color: rgba(var(--primary-color-rgb), .2); */
-}
-
 main {
     max-width: 840px;
-    margin: 0 auto; /* centralized horizontaly on browser */
+    margin: 0 auto; /* centralized horizontally on browser */
 }
 
 
@@ -242,7 +237,7 @@ main {
 
 footer {
     max-width: 840px;
-    margin: 20px auto 0;
+    margin: 20px auto 0; /* centralized horizontally on browser */
     /* margin: 0 auto; */
     /* margin: 20px 0 0 0; */
     position: relative;
