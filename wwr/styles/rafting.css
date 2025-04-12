@@ -348,10 +348,11 @@ footer {
 
 .information-content {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-evenly;
-    gap: 0;
+    gap: 1rem;
     /* flex-wrap: wrap; */
 }
 
@@ -391,7 +392,9 @@ footer {
 }
 
 .send-message form {
-    width: 400px;
+    /* width: 400px; */
+    width: 50%;
+    min-width: 300px;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid var(--secondary-color);
@@ -415,6 +418,7 @@ footer {
 .send-message input, select, textarea {
     padding: 0.2rem;
     font-size: 0.9rem;
+    /* width: 97.5%; */
 }
 
 .form-item {
